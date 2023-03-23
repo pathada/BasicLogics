@@ -6,4 +6,4 @@ Even/Odd,
 Ascending Order,
 Finding the Target Index,
 valid paranthesis,
-filter SingleNumber,
+filter SingleNumber
