@@ -1,6 +1,6 @@
-# SimpleLogics 
+# BasicLogics 
 
-simple leet code logics in swift language:
+basic code logics in swift language:
 
 Even/Odd,
 Ascending Order,
