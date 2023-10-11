@@ -115,5 +115,10 @@ class ViewController: UIViewController {
         print("pivot")
         print("sfdgsfgsfg")
     }
+    
+    func findPivotNew() {
+        print("pivot")
+        print("sfdgsfgsfg")
+    }
 }
 
