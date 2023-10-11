@@ -110,5 +110,9 @@ class ViewController: UIViewController {
         print(uniqueNumbers)
         return uniqueNumbers
     }
+    
+    func findPivot() {
+        print("pivot")
+    }
 }
 
