@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         self.paranthesis(s: "{}[]{]")
         let singleNum = findSingleNumber([4,2,2,4,1,1,8,8,2,0])
         print("findSingleNumber: \(singleNum)")
+        let pivotNum = findPivot(arr: [1,7,3,6,5,6])
+        print(pivotNum)
     }
 
     func evenOdd(arrList:[Int]){
@@ -111,9 +113,25 @@ class ViewController: UIViewController {
         return uniqueNumbers
     }
     
-    func findPivot() {
-        print("pivot")
-        print("sfdgsfgsfg")
+    func findPivot(arr: [Int]) -> Int {
+        var n = 0
+        var m = 0
+        for i in 0..<arr.count {
+            if arr.count == 1 {
+                return -1
+            }
+            for j in 0...i-1 {
+                n = n+j
+            }
+            for k in i+1..<arr.count {
+                m = m+k
+            }
+            if n == m {
+                return i
+            }
+        }
+        
+        return 0
     }
 }
 
